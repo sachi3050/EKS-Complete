@@ -68,7 +68,7 @@ eksctl create cluster --name=my-eks22 \
                       --without-nodegroup
 
 eksctl utils associate-iam-oidc-provider \
-    --region ap-south-1 \
+    --region us-east-1 \
     --cluster my-eks22 \
     --approve
 
